@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" width="1005px" height="730px" font-size="13px">
+<style>
+@font-face {
+  src: local('JetBrains Mono'), local('Fira Code'), local('Consolas');
+  font-family: 'MonoFallback';
+  font-display: swap;
+}
+.titleBar { fill: #57606a; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
+.cmdPrompt { fill: #0969da; font-weight: 700; }
+.cmdText { fill: #24292f; font-weight: 600; }
+.sep { fill: #d0d7de; }
+.secTitle { fill: #0969da; font-weight: 700; }
+.key { fill: #059653; }
+.val { fill: #1f2328; }
+.linkVal { fill: #0969da; text-decoration: underline; text-decoration-color: #0969da88; cursor: pointer; }
+.linkVal:hover { fill: #059653; }
+.dot { fill: #8c959f; }
+.add { fill: #1a7f37; font-weight: 600; }
+.del { fill: #cf222e; font-weight: 600; }
+.quoteHdr { fill: #6e7781; font-style: italic; }
+.quote { fill: #b45309; font-style: italic; }
+.quoteAuth { fill: #9a6700; font-weight: 700; font-style: normal; }
+.portrait { fill: #4b5563; }
+.portraitBadge { fill: #059653; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }
+.portraitBadgeDim { fill: #6e7781; font-size: 10px; }
+text, tspan { white-space: pre; }
+a { text-decoration: none; }
+</style>
+<rect width="1005px" height="730px" fill="#f6f8fa" rx="14" stroke="#d0d7de" stroke-width="1.5"/>
+
+<!-- Window Header Bar -->
+<circle cx="25" cy="20" r="5.5" fill="#ff5f56"/>
+<circle cx="43" cy="20" r="5.5" fill="#ffbd2e"/>
+<circle cx="61" cy="20" r="5.5" fill="#27c93f"/>
+<text x="85" y="24" class="titleBar">CaiOS v2.6.0 &gt; terminal@caiovski [active]</text>
+<line x1="0" y1="36" x2="1005" y2="36" stroke="#e1e4e8" stroke-width="1.2"/>
+
+<!-- Left Side: Caio's ASCII Portrait -->
+<text x="18" y="58" class="portrait"><tspan x="18" y="58">             `.`` `    `.'.``..            </tspan><tspan x="18" y="78">           ``.`   ``.....`  `.~:           </tspan><tspan x="18" y="98">         ..      `.'''`       `' ``        </tspan><tspan x="18" y="118">       ''         `'-~'!nphhxj;.  `. `     </tspan><tspan x="18" y="138">      -'-'          .;*g@@@WNMghr- ````'   </tspan><tspan x="18" y="158">     .~-```         -*bN@###W%NMHmj. `-i:  </tspan><tspan x="18" y="178">   `-~-'`        .:|rpN@%MghpbxbhgMx.`;i!  </tspan><tspan x="18" y="198">   ';```        .~*rnpb|-`  `'~~~:|j'`:;i. </tspan><tspan x="18" y="218">   .-`  -~-''-'`  `  -` .  `~i*;:-:n| ~:;` </tspan><tspan x="18" y="238">    .  ;j;:~...` `'-p%H;;|!:---:|rxhij*-!  </tspan><tspan x="18" y="258">     .`in!;;:~:;!;;pMWWHn|nmmhmmmhbi!Hg!|. </tspan><tspan x="18" y="278">     '~|ni!;!**!:|rxrxbrnx||rji*!!!:b@brj  </tspan><tspan x="18" y="298">      -*xj*!*|irj*' `    'xHmmpxj!:!gg|g~  </tspan><tspan x="18" y="318">       ~|riijnpmx:. `.`''~rmmmmpxn||n|;*   </tspan><tspan x="18" y="338">       `~**jxb|-''`.~;;:~'''`';nxr|;~|`    </tspan><tspan x="18" y="358">        `'-!n; .~;!!!!!|i*!!;'`:i;'-:'`    </tspan><tspan x="18" y="378">          .-:::|i*:'.....-:!*!:-''-:. .-   </tspan><tspan x="18" y="398">            '''--;;:' `.~|i|;'...`.    !   </tspan><tspan x="18" y="418">            `-.`'-~~'` .-:::-`         ~-` </tspan><tspan x="18" y="438">              ```.`              `     '.:.</tspan><tspan x="18" y="458">                 `..`   ```    ```     . ` </tspan><tspan x="18" y="478">                    ```````   ````      `  </tspan><tspan x="18" y="498">                      ````  `````          </tspan><tspan x="18" y="518">           `~-'`            .'-;!`         </tspan><tspan x="18" y="538">            !!;;;~--'.```.-;inpHx`         </tspan><tspan x="22" y="600" class="portraitBadge">[ IDENTITY: CAIO_MAGALHAES_ARANTES ]</tspan>
+<tspan x="22" y="624" class="portraitBadgeDim">// OS: CaiOS_HYBRID // STATUS: READY_TO_BUILD</tspan>
+<tspan x="22" y="646" class="portraitBadgeDim">// FOCUS: FULL_STACK // CEFET-MG 8º PERÍODO</tspan>
+<tspan x="22" y="668" class="portraitBadgeDim">// ARCH: CLEAN_CODE // PHILOSOPHY: FOWLER_DOCTRINE</tspan>
+</text>
+
+<!-- Right Side: Sysinfo, Stacks, Hobbies, Clickable Contact, Telemetry and Philosophy -->
+<text x="435" y="58">
+<tspan x="435" y="58" class="cmdPrompt">caiovski@terminal:~$</tspan> <tspan class="cmdText">sudo caiovski card</tspan>
+<tspan x="435" y="74" class="sep">-———————————————————————————————————————————————————-—-</tspan>
+<tspan x="435" y="92" class="dot">. </tspan><tspan class="key">OS</tspan>:<tspan class="dot"> ........................ </tspan><tspan class="val">Windows 10, Linux, Android</tspan>
+<tspan x="435" y="110" class="dot">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dot" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">21 years, 9 months, 12 days</tspan>
+<tspan x="435" y="128" class="dot">. </tspan><tspan class="key">Host</tspan>:<tspan class="dot"> ...................... </tspan><tspan class="val">CEFET-MG (B.S. Information Systems)</tspan>
+<tspan x="435" y="146" class="dot">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dot"> .................. </tspan><tspan class="val">Full-Stack Dev</tspan>
+<tspan x="435" y="164" class="dot">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dot"> ..................... </tspan><tspan class="val">Antigravity, VS Code, Android Studio</tspan>
+<tspan x="435" y="179" class="dot">. </tspan>
+<tspan x="435" y="196" class="dot">. </tspan><tspan class="key">Languages.Main</tspan>:<tspan class="dot"> ........... </tspan><tspan class="val">TypeScript, Python, JavaScript, SQL</tspan>
+<tspan x="435" y="214" class="dot">. </tspan><tspan class="key">Stack.Mobile</tspan>:<tspan class="dot"> ............. </tspan><tspan class="val">React Native, Expo, SQLite</tspan>
+<tspan x="435" y="232" class="dot">. </tspan><tspan class="key">Stack.Backend</tspan>:<tspan class="dot"> ............ </tspan><tspan class="val">Python, Supabase, PostgreSQL, Node.js</tspan>
+<tspan x="435" y="250" class="dot">. </tspan><tspan class="key">Projects.Featured</tspan>:<tspan class="dot"> ........ </tspan><tspan class="val">AgroPet Lambari, TripMind AI</tspan>
+<tspan x="435" y="266" class="dot">. </tspan>
+<tspan x="435" y="284" class="dot">. </tspan><tspan class="key">Hobbies.Software</tspan>:<tspan class="dot"> ......... </tspan><tspan class="val">Projetos Pessoais</tspan>
+<tspan x="435" y="302" class="dot">. </tspan><tspan class="key">Hobbies.Hardware</tspan>:<tspan class="dot"> ......... </tspan><tspan class="val">Montagens de PC</tspan>
+<tspan x="435" y="318" class="dot">. </tspan>
+<tspan x="435" y="335" class="secTitle">- Contact &amp; Hub -------------------------------------</tspan>
+<tspan x="435" y="353"><a href="https://meuportfolio-caiovski.vercel.app/" target="_blank"><tspan class="dot">. </tspan><tspan class="key">Web.Portfolio</tspan>:<tspan class="dot"> ............ </tspan><tspan class="linkVal">meuportfolio-caiovski.vercel.app</tspan></a></tspan>
+<tspan x="435" y="371"><a href="https://www.linkedin.com/in/caio-magalh%C3%A3es-fonseca-arantes-8864b4280/" target="_blank"><tspan class="dot">. </tspan><tspan class="key">Social.LinkedIn</tspan>:<tspan class="dot"> .......... </tspan><tspan class="linkVal">in/caio-magalhaes-fonseca-arantes</tspan></a></tspan>
+<tspan x="435" y="389"><a href="https://www.instagram.com/caio.json/" target="_blank"><tspan class="dot">. </tspan><tspan class="key">Social.Instagram</tspan>:<tspan class="dot"> ......... </tspan><tspan class="linkVal">@caio.json</tspan></a></tspan>
+<tspan x="435" y="407"><a href="https://discord.com/users/730445087917604874" target="_blank"><tspan class="dot">. </tspan><tspan class="key">Social.Discord</tspan>:<tspan class="dot"> ........... </tspan><tspan class="linkVal">caio.json</tspan></a></tspan>
+<tspan x="435" y="425"><a href="mailto:caiomfonsecaarantes07@gmail.com"><tspan class="dot">. </tspan><tspan class="key">Email.Personal</tspan>:<tspan class="dot"> ........... </tspan><tspan class="linkVal">caiomfonsecaarantes07@gmail.com</tspan></a></tspan>
+<tspan x="435" y="443"><a href="mailto:caiozada@proton.me"><tspan class="dot">. </tspan><tspan class="key">Email.Personal</tspan>:<tspan class="dot"> ........... </tspan><tspan class="linkVal">caiozada@proton.me</tspan></a></tspan>
+<tspan x="435" y="461"><a href="mailto:caiozera@protonmail.com"><tspan class="dot">. </tspan><tspan class="key">Email.Work</tspan>:<tspan class="dot"> ............... </tspan><tspan class="linkVal">caiozera@protonmail.com</tspan></a></tspan>
+<tspan x="435" y="479"><a href="https://wa.me/5535998906096?text=Ol%C3%A1%20Caio,%20vi%20seu%20perfil%20no%20GitHub!" target="_blank"><tspan class="dot">. </tspan><tspan class="key">Social.WhatsApp</tspan>:<tspan class="dot"> .......... </tspan><tspan class="linkVal">+55 (35) 99890-6096</tspan></a></tspan>
+<tspan x="435" y="495" class="dot">. </tspan>
+<tspan x="435" y="512" class="secTitle">- GitHub Telemetry ----------------------------------</tspan>
+<tspan x="435" y="530"><tspan class="dot">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dot" id="repo_data_dots"> .... </tspan><tspan class="val" id="repo_data">11</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="val" id="contrib_data">11</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="dot" id="star_data_dots"> ............ </tspan><tspan class="val" id="star_data">1</tspan></tspan>
+<tspan x="435" y="548"><tspan class="dot">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dot" id="commit_data_dots"> ................... </tspan><tspan class="val" id="commit_data">84</tspan> | <tspan class="key">Followers</tspan>:<tspan class="dot" id="follower_data_dots"> ........ </tspan><tspan class="val" id="follower_data">2</tspan></tspan>
+<tspan x="435" y="566"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="dot" id="loc_data_dots">. </tspan><tspan class="val" id="loc_data">34,250</tspan> ( <tspan class="add" id="loc_add">29,810</tspan><tspan class="add">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">4,440</tspan><tspan class="del">--</tspan> )</tspan>
+<tspan x="435" y="582" class="dot">. </tspan>
+<tspan x="435" y="601" class="quoteHdr">// Clean Architecture &amp; Refactoring Philosophy ------</tspan>
+<tspan x="435" y="620" class="quote">"Refatorar é alterar a estrutura interna de um software</tspan>
+<tspan x="435" y="639" class="quote"> para torná-lo mais fácil de compreender e manter,</tspan>
+<tspan x="435" y="658" class="quote"> sem alterar seu comportamento observável." </tspan><tspan class="quoteAuth">— Martin Fowler</tspan>
+</text>
+</svg>

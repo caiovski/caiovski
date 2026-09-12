@@ -48,7 +48,7 @@ a { text-decoration: none; }
 <tspan x="435" y="58" class="cmdPrompt">caiovski@terminal:~$</tspan> <tspan class="cmdText">sudo caiovski card</tspan>
 <tspan x="435" y="74" class="sep">-———————————————————————————————————————————————————-—-</tspan>
 <tspan x="435" y="92" class="dot">. </tspan><tspan class="key">OS</tspan>:<tspan class="dot"> ........................ </tspan><tspan class="val">Windows 10, Linux, Android</tspan>
-<tspan x="435" y="110" class="dot">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dot" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">21 years, 9 months, 13 days</tspan>
+<tspan x="435" y="110" class="dot">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dot" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">21 years, 9 months, 14 days</tspan>
 <tspan x="435" y="128" class="dot">. </tspan><tspan class="key">Host</tspan>:<tspan class="dot"> ...................... </tspan><tspan class="val">CEFET-MG (B.S. Information Systems)</tspan>
 <tspan x="435" y="146" class="dot">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dot"> .................. </tspan><tspan class="val">Full-Stack Dev</tspan>
 <tspan x="435" y="164" class="dot">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dot"> ..................... </tspan><tspan class="val">Antigravity, VS Code, Android Studio</tspan>

@@ -48,7 +48,7 @@ a { text-decoration: none; }
 <tspan x="435" y="58" class="cmdPrompt">caiovski@terminal:~$</tspan> <tspan class="cmdText">sudo caiovski card</tspan>
 <tspan x="435" y="74" class="sep">-———————————————————————————————————————————————————-—-</tspan>
 <tspan x="435" y="92" class="dot">. </tspan><tspan class="key">OS</tspan>:<tspan class="dot"> ........................ </tspan><tspan class="val">Windows 10, Linux, Android</tspan>
-<tspan x="435" y="110" class="dot">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dot" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">21 years, 9 months, 18 days</tspan>
+<tspan x="435" y="110" class="dot">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dot" id="age_data_dots"> .................... </tspan><tspan class="val" id="age_data">21 years, 9 months, 19 days</tspan>
 <tspan x="435" y="128" class="dot">. </tspan><tspan class="key">Host</tspan>:<tspan class="dot"> ...................... </tspan><tspan class="val">CEFET-MG (B.S. Information Systems)</tspan>
 <tspan x="435" y="146" class="dot">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dot"> .................. </tspan><tspan class="val">Full-Stack Dev</tspan>
 <tspan x="435" y="164" class="dot">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dot"> ..................... </tspan><tspan class="val">Antigravity, VS Code, Android Studio</tspan>
@@ -73,8 +73,8 @@ a { text-decoration: none; }
 <tspan x="435" y="495" class="dot">. </tspan>
 <tspan x="435" y="512" class="secTitle">- GitHub Telemetry ----------------------------------</tspan>
 <tspan x="435" y="530"><tspan class="dot">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dot" id="repo_data_dots"> .... </tspan><tspan class="val" id="repo_data">11</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="val" id="contrib_data">11</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="dot" id="star_data_dots"> .......... </tspan><tspan class="val" id="star_data">5</tspan></tspan>
-<tspan x="435" y="548"><tspan class="dot">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dot" id="commit_data_dots"> .............. </tspan><tspan class="val" id="commit_data">200</tspan> | <tspan class="key">Followers</tspan>:<tspan class="dot" id="follower_data_dots"> ...... </tspan><tspan class="val" id="follower_data">2</tspan></tspan>
-<tspan x="435" y="566"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="dot" id="loc_data_dots">. </tspan><tspan class="val" id="loc_data">317,058</tspan> ( <tspan class="add" id="loc_add">363,961</tspan><tspan class="add">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">46,903</tspan><tspan class="del">--</tspan> )</tspan>
+<tspan x="435" y="548"><tspan class="dot">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dot" id="commit_data_dots"> .............. </tspan><tspan class="val" id="commit_data">201</tspan> | <tspan class="key">Followers</tspan>:<tspan class="dot" id="follower_data_dots"> ...... </tspan><tspan class="val" id="follower_data">2</tspan></tspan>
+<tspan x="435" y="566"><tspan class="dot">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="dot" id="loc_data_dots">. </tspan><tspan class="val" id="loc_data">317,058</tspan> ( <tspan class="add" id="loc_add">363,970</tspan><tspan class="add">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="del" id="loc_del">46,912</tspan><tspan class="del">--</tspan> )</tspan>
 <tspan x="435" y="582" class="dot">. </tspan>
 <tspan x="435" y="601" class="quoteHdr">// Clean Architecture &amp; Refactoring Philosophy ------</tspan>
 <tspan x="435" y="620" class="quote">"Refatorar é alterar a estrutura interna de um software</tspan>
